@@ -13,13 +13,13 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 gem 'devise'
-gem 'paperclip', '4.2'
-gem 'aws-sdk', '< 2.0'
+
+
 gem 'masonry-rails', '~> 0.2.0'
-gem 'stripe'
-gem 'figaro'
-gem 'gosu'
-gem 'textacular', '~> 3.0'
+
+
+
+
 gem  'mixpanel-ruby'
 gem 'mail_form'
 gem 'simple_form'
@@ -50,6 +50,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 #bootstrap for rails
 gem 'bootstrap-sass'
 # Use sqlite3 as the database for Active Record
+
 group :development, :test do
      gem 'sqlite3'
 end
